@@ -30,7 +30,7 @@ git clone [https://github.com/panikarsai20-ctrl/Part-Segmentation-Benchmark-Dash
 ```
 
 ```bash
-cd Parts-Segmentation-Benchmark-Dashboard
+cd Part-Segmentation-Benchmark-Dashboard
 ```
 (Or cd my_web_app if you used the shortcut name above)
 #### Optional
