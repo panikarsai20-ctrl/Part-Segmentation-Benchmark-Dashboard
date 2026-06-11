@@ -17,3 +17,58 @@ Follow these instructions to get a copy of the project up and running on your lo
 Make sure you have Python installed on your system (Python 3.8 or higher is recommended). You can verify your version by running:
 ```bash
 python --version
+
+🛠️ Installation & Setup
+Clone the repository (or navigate to your downloaded project directory):
+
+Bash
+cd my_web_app
+Create a virtual environment (Optional but highly recommended):
+
+Bash
+python -m venv venv
+Activate the virtual environment:
+
+Windows:
+
+Bash
+.\venv\Scripts\activate
+Mac/Linux:
+
+Bash
+source venv/bin/activate
+Install the required packages:
+
+Bash
+pip install -r requirements.txt
+🖥️ Running the Web App
+To launch the dashboard server, run the following command in your terminal:
+
+Bash
+streamlit run app.py
+Once the server initializes, it will automatically spin up the interface in your default web browser. If it doesn't open automatically, look at your terminal output and copy/paste one of the following URLs:
+
+Local URL: http://localhost:8501 (To view on the machine running the code)
+
+Network URL: http://<your-local-ip>:8501 (To view from another device, like your phone, connected to the same Wi-Fi network)
+
+📂 Project Structure
+For the application to dynamically parse the target files correctly, ensure your directory layout exactly matches this structure:
+
+Plaintext
+my_web_app/
+│
+├── app.py                     # Main Streamlit application script
+├── requirements.txt           # Python package dependencies
+├── .gitignore                 # Files/folders excluded from version control
+└── evaluation_outs/           # Root directory for model output images
+    ├── CLIP/
+    │   ├── with labels/       # 3-panel layout images
+    │   └── without labels/    # 2-panel layout images
+    ├── DINOv3/
+    │   ├── with labels/
+    │   └── without labels/
+    ├── CLIP-SAM/
+    └── DINOv3-SAM/
+📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
