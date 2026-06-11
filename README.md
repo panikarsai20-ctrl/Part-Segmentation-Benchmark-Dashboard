@@ -16,7 +16,7 @@ Make sure you have Python installed on your system (Python 3.8 or higher is reco
 python --version
 ```
 
-🛠️ Installation & Setup
+#### 🛠️ Installation & Setup
 Clone the repository (or navigate to your downloaded project directory):
 Run the following command to download the project files.
 
@@ -33,7 +33,7 @@ git clone [https://github.com/panikarsai20-ctrl/Part-Segmentation-Benchmark-Dash
 cd Parts-Segmentation-Benchmark-Dashboard
 ```
 (Or cd my_web_app if you used the shortcut name above)
-#Optional
+#### Optional
 Create a virtual environment (Optional but highly recommended):
 
 ```bash
@@ -51,7 +51,7 @@ Mac/Linux:
 ```bash
 source venv/bin/activate
 ```
-#Continue 
+#### Continue 
 
 Install the required packages:
 
