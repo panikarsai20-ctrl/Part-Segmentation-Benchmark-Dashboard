@@ -76,7 +76,7 @@ For the application to dynamically parse the target files correctly, ensure your
 The RNS(Retrieve and Segment ) model was ran on an subset Dataset where we took 7 classes of PasacalVOC2012 Datasets and each class has 15 images ,along with that we created the fine grained classes of those 7 classes.
 <img width="1896" height="834" alt="image" src="https://github.com/user-attachments/assets/770143c8-d8a0-4858-9adf-3bdfd3d96511" />
 You can see how the predicted segmentation images are looking like ,and compre based on different settings on which RNS was ran on for the Dataset
-
+```
 Plaintext
 my_web_app/
 │
@@ -96,6 +96,6 @@ my_web_app/
     └── DINOv3-SAM/
         ├── with labels/
         └── without labels/
-    
+ ```   
 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
